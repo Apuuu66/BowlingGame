@@ -126,14 +126,14 @@ public class BowlingGame {
         }
         return 0;
     }
-//    public static void main(String[] args) {
-//        String bowlingCode1 = "X|X|X|X|X|X|X|X|X|X||XX";           //300
-//        String bowlingCode2 = "5/|5/|5/|5/|5/|5/|5/|5/|5/|5/||5";  //150
-//        String bowlingCode3 = "9-|9-|9-|9-|9-|9-|9-|9-|9-|9-||";   //90
-//        String bowlingCode4 = "X|7/|9-|X|-8|8/|-6|X|X|X||81";      //167
-//        System.out.println(getBowlingScore(bowlingCode1));
-//        System.out.println(getBowlingScore(bowlingCode2));
-//        System.out.println(getBowlingScore(bowlingCode3));
-//        System.out.println(getBowlingScore(bowlingCode4));
-//    }
+    public static void main(String[] args) {
+        String bowlingCode1 = "X|X|X|X|X|X|X|X|X|X||XX";           //300
+        String bowlingCode2 = "5/|5/|5/|5/|5/|5/|5/|5/|5/|5/||5";  //150
+        String bowlingCode3 = "9-|9-|9-|9-|9-|9-|9-|9-|9-|9-||";   //90
+        String bowlingCode4 = "X|7/|9-|X|-8|8/|-6|X|X|X||81";      //167
+        System.out.println(getBowlingScore(bowlingCode1));
+        System.out.println(getBowlingScore(bowlingCode2));
+        System.out.println(getBowlingScore(bowlingCode3));
+        System.out.println(getBowlingScore(bowlingCode4));
+    }
 }
